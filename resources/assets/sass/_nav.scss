@@ -1,0 +1,157 @@
+.login-icon-container
+{
+  height: 56px;
+}
+
+.login-icon-container img:hover, .login-icon-container img:active
+{
+  opacity: 0.6;
+}
+
+.dropdown-content li a,
+.side-nav   li a
+{
+  font-family: 'MuseoSlab-500', sans-serif;
+  font-size: 11pt;
+  padding: 20px 30px;
+  line-height:24px;
+}
+
+.side-nav li#sections a
+{
+  border: 0 solid ;
+  border-left-width: 3px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+//title when scrolling
+.scroll-title{
+  font-family: 'Rooney-sans-bold',sans-serif;
+  display: inline-block;
+  margin: 15px 0 0 0;
+  max-width: 300px;
+  line-height: normal;
+}
+
+.scroll-title span{
+  font-family: 'RooneySans-Light',sans-serif;
+}
+
+.side-nav li#sections a:hover,
+.side-nav li#sections a:active,
+.side-nav li#sections a:focus
+{
+  border: 0 solid;
+  border-left-width: 30px;
+}
+
+.bar::after
+{
+  content: url("../img/nav/Gradient.png");
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.nav-profile-icon
+{
+  font-size: 14pt;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'OpenSans-Light', sans-serif;
+  background-color: #00aeef;
+}
+
+.outer-profile-navbar
+{
+  margin-top: 30px !important;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 174, 239, 0.5);
+}
+
+.inner-profile-navbar
+{
+  font-family: 'OpenSans-Light', sans-serif;
+  width: 140px;
+  height: 140px;
+  background-color: #00aeef;
+  line-height: 140px;
+  font-size: 60pt;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icon-position
+{
+  position: relative;
+  bottom: -4px;
+}
+
+//Nav title
+.title-motivapp-green{
+  border-left:solid 1px #9dd645;
+  color: #9dd645;
+  margin: 5px;
+  padding-left: 5px;
+}
+.title-motivapp-red{
+  border-left:solid 1px #e54028;
+  color: #e54028;
+  margin: 5px;
+  padding-left: 5px;
+}
+.title-motivapp-purple{
+  border-left:solid 1px #564b98;
+  color: #564b98;
+  margin: 5px;
+  padding-left: 5px;
+}
+
+.title-motivapp-blue{
+  border-left:solid 1px #00aeef;
+  color: #00aeef;
+  margin: 5px;
+  padding-left: 5px;
+}
+
+.no-hover:hover{
+  background-color: transparent !important;
+}
+
+#section-article-title{
+  position: relative;
+  left: 144px
+}
+
+.fix-hover-two-lines
+{
+  padding-top: 10px !important;
+}
+
+#search::-webkit-input-placeholder {
+  font-family: 'MuseoSlab-100', sans-serif;
+  font-size:10pt;
+}
+
+#search:-ms-input-placeholder {
+  font-family: 'MuseoSlab-100', sans-serif;
+  font-size:10pt;
+
+}
+
+#search:-moz-placeholder {
+  font-family: 'MuseoSlab-100', sans-serif;
+  font-size:10pt;
+}
+
+#search::-moz-placeholder {
+  font-family: 'MuseoSlab-100', sans-serif;
+  font-size:10pt;
+}

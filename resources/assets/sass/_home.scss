@@ -1,0 +1,75 @@
+.border-article-right {
+  border-right: 1px solid #d7d7d7;
+}
+
+.border-article-left {
+  border-left: 1px solid #d7d7d7;
+}
+
+.border-article{
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+}
+
+.more-reads-title {
+  font-size: 20pt;
+  font-family: 'MuseoSlab-100',sans-serif !important;
+  text-transform: uppercase;
+}
+
+.home-title{
+  font-family: 'MuseoSlab-100',sans-serif;
+  font-size: 20pt;
+  text-transform: uppercase;
+}
+
+.slick-carousel
+{
+  z-index: 100 !important;
+}
+
+.slick-next{
+  right: 0;
+  height: 205px;
+  width: 68px;
+  top: 130px;
+}
+.slick-prev{
+  left: 0;
+  height: 205px;
+  width: 68px;
+  z-index: 1;
+  top: 130px;
+}
+
+.slick-next::before {
+  position: absolute;
+  content: url('../img/Next.png');
+  left: 10px;
+  top: 0;
+}
+
+.slick-prev::before {
+  position: absolute;
+  content: url('../img/Prev.png');
+  top: 0;
+  right: 9px;
+}
+
+.slick-carousel { display: none; }
+.slick-carousel.slick-initialized { display: block; }
+
+.name-bold {
+  font-family: 'Rooney-sans-bold',sans-serif !important;
+  font-size: 12pt !important;
+}
+
+.collaborator{
+  font-size:18pt;
+  width:100px;
+  height: 100px;
+  color:white;
+  padding-top: 33px;
+  font-family: 'MuseoSlab-100',sans-serif;
+
+}

@@ -1,0 +1,24 @@
+{
+  "name": "motivapp",
+  "description": "bundle for dev motivapp v1.2",
+  "main": "",
+  "authors": [
+    "Enrique La Cruz"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/elacruz88/motivapp-v1.2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "Materialize": "materialize#^0.97.6",
+    "circliful": "^1.0.0",
+    "slick-carousel": "^1.6.0",
+    "font-awesome": "^4.6.3"
+  }
+}

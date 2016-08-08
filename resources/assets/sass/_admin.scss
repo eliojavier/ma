@@ -1,0 +1,21 @@
+
+@media (min-width: 992px) {
+  #admin header, #admin main, #admin footer {
+    padding-left: 240px;
+  }
+}
+
+.page-title {
+  font-size: 28px;
+  padding: 0 15px 0 15px;
+}
+
+.side-nav.fixed a{
+  color: $motivapp-purple;
+}
+
+.waves-effect.waves-motivapp-blue .waves-ripple {
+  /* The alpha value allows the text and background color
+  of the button to still show through. */
+  background-color:  rgba(0, 174, 239, 0.65);
+}

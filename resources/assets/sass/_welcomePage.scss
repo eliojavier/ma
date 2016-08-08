@@ -1,0 +1,175 @@
+//Register
+.register{
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  color: white;
+}
+
+.register h2{
+  font-size: 25pt;
+  font-family: 'MuseoSlab-100', sans-serif;
+}
+
+.register.top{
+  background: url("../img/RegisterTopBg.jpg") bottom center no-repeat;
+  background-size: cover;
+}
+
+.register.bottom{
+  background: url("../img/RegisterBottomBg.jpg") top center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.register.top > .halo{
+  background: url("../img/RegisterHaloTop.png") top center no-repeat;
+  height: 153px;
+}
+
+.register.bottom > .halo{
+  background: url("../img/RegisterHaloBottom.png") top center no-repeat;
+  height: 105px;
+}
+
+//Facebook button
+.facebook-button{
+  background-color: #3c5b97;
+  text-transform: none;
+}
+.facebook-button i{
+  float: left;
+}
+
+//Terms/policy links
+.terms-and-policy-link
+{
+  text-decoration: underline;
+  color: white;
+}
+//Register form
+.input-field input{
+  color: #646464;
+}
+//Text appear
+#first-text li, #second-text li, #third-text li, #fourth-text li, #labels li{
+  opacity: 0;
+}
+
+#first-text h2{
+  font-family: 'MuseoSlab-500',sans-serif;
+  color: $motivapp-blue;
+}
+
+#second-text h2, #third-text  h2, #fourth-text h2{
+  font-family: 'Conv_MuseoSlab-300', sans-serif;
+}
+
+#second-text p,#third-text p, #fourth-text p{
+  font-family: 'OpenSans-Light', sans-serif;
+}
+
+#first-text h2 span{
+  font-family: 'MuseoSlab-100',sans-serif;
+  color: black;
+  font-size: 35pt;
+}
+//Gradient line effect
+.gradient-line{
+  -ms-transform: rotate(-50deg); /* IE 9 */
+  -webkit-transform: rotate(-50deg); /* Safari */
+  transform: rotate(-50deg); /* Standard syntax */
+  background: linear-gradient(90deg,
+          rgb(144, 255, 255),
+          rgb(251, 255, 60)
+  );
+  width: 550px;
+  height: 30px;
+  z-index: -1;
+  position: absolute;
+  top: 120px;
+  right: -60px;
+}
+
+//Hero
+.hero{
+  position: relative;
+  margin-top: 100px;
+  color: white;
+}
+
+.hero#discover{
+  background:url("../img/DiscoverBg.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+.hero#learn{
+  background:url("../img/LearnBg.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+.hero#share{
+  background:url("../img/ShareBg.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+
+.hero > .motivapp-blue{
+  background:
+          /* top, transparent red, faked with gradient */
+          linear-gradient(
+                          rgba(0, 174, 239, 0.8),
+                          rgba(0, 174, 239, 0.8)
+          ), url("../img/HeroHaloBg.png") $halo-margin 0 no-repeat;
+  width: 100%;
+}
+
+.hero > .motivapp-green{
+  background:
+          /* top, transparent red, faked with gradient */
+          linear-gradient(
+                          rgba(145, 211, 53, 0.8),
+                          rgba(145, 211, 53, 0.8)
+          ), url("../img/HeroHaloBg.png") $halo-margin 0 no-repeat;
+  width: 100%;
+}
+.hero > .motivapp-red{
+  background:
+          /* top, transparent red, faked with gradient */
+          linear-gradient(
+                          rgba(229, 64, 40, 0.7),
+                          rgba(229, 64, 40, 0.7)
+          ), url("../img/HeroHaloBg.png") $halo-margin 0 no-repeat;
+  width: 100%;
+}
+//Halo
+.hero > .halo{
+  background: url("../img/HeroHaloBgOver.png") bottom center no-repeat;
+  position: absolute;
+  left: $halo-margin;
+  top: -61px;
+  width: 177px;
+}
+
+.hero > .halo img{
+  padding-bottom: 12px;
+}
+
+//Fab menu
+#fab-menu{
+  min-height: 500px;
+  margin: 0;
+}
+
+#enterprise-registration:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
+
+
+.custom-modal .modal-content{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,66 @@
+
+.no-padding {
+  padding-left:0;
+  padding-right:0;
+}
+
+#more-reads > .category-motivapp-green, #more-reads >.category-motivapp-purple,
+#more-reads > .category-motivapp-blue, #more-reads > .category-motivapp-red{
+  padding-left:10px;
+  padding-top:5px;
+  //float:left;
+  font-size:14px;
+}
+
+#more > .category-motivapp-green, #more >.category-motivapp-purple,
+#more > .category-motivapp-blue, #more > .category-motivapp-red{
+  padding-left:10px;
+  padding-top:5px;
+  //float:left;
+  font-size:14px;
+}
+
+.photo-motivapp-blue {border-top:solid 5px $motivapp-blue;}
+.photo-motivapp-red {border-top:solid 5px $motivapp-red;}
+.photo-motivapp-green {border-top:solid 5px $motivapp-green;}
+.photo-motivapp-purple {border-top:solid 5px $motivapp-purple;}
+
+.tit-ultimo {
+  padding-left:10px;
+  //float:left;
+  font-size:20px;
+  color:#333;
+}
+
+.date {
+  padding-left:10px;
+  //float:left;
+  //margin-top:15px;
+}
+
+.dropdown-content li a{
+  font-size: 12px;
+  font-family: 'MuseoSlab-500', sans-serif;
+}
+
+ul#dropdown1.dropdown-content.active {
+  top:70px !important;
+}
+
+// ojo
+.article-title h1 {
+  display:inline !important;
+}
+
+.fixed-action-btn.horizontal ul li {
+  margin:5px 10px 0 0;}
+
+.share-btn {
+  width:50px;
+  height:50px;
+}
+
+.share-btn i {
+  font-size: 2.8rem !important;
+  padding-top: 6px;
+}

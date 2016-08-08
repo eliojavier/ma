@@ -1,0 +1,98 @@
+.camera-icon{
+  background: url("../img/Camera.png") no-repeat center center;
+  height: 83px;
+  width: 132px;
+  position: absolute;
+  bottom: -35px;
+  left: 53px;
+}
+
+//circles
+.outer-profile{
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background-color: rgba(0, 174, 239, 0.5);
+}
+.inner-profile{
+  font-family: 'OpenSans-Light',sans-serif;
+  width: 230px;
+  height: 230px;
+  background-color: rgb(0, 174, 239);
+  line-height: 230px;
+  font-size: 76pt;
+  text-align: center;
+  color: #ffffff;
+}
+
+#profile h2{
+  color: #00aeef;
+  font-size: 18pt;
+  text-transform: uppercase;
+  font-family: 'Conv_rooney sans',sans-serif;
+}
+
+.email-display{
+  font-family: 'OpenSans-Light',sans-serif;
+  font-size: 11pt;
+  margin: 0;
+}
+
+
+.profile-chip{
+  color: #565656;;
+  border: 1px solid #565656;
+  cursor: pointer;
+}
+//Config button
+.outer-small{
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 174, 239, 0.5);
+}
+
+.blue-button{
+  background-color: rgb(0, 174, 239);
+  width: 50px !important;
+  height: 50px !important;
+}
+
+//Ready button
+.outer-medium{
+  width: 110px;
+  height: 110px;
+  background-color: rgba(0, 174, 239, 0.5);
+}
+
+.blue-button-2{
+  background-color: rgb(0, 174, 239);
+  width: 100px !important;
+  height: 100px !important;
+  line-height: 100px;
+  font-family: 'Conv_rooney sans',sans-serif;
+  font-size: 17pt;
+}
+
+.profile-name{
+  text-transform: uppercase;
+  font-family: 'Conv_rooney sans',sans-serif;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.title-percentage{
+  font-family: 'Conv_MuseoSlab-300', sans-serif;
+}
+
+.no-tags-text{
+  font-family: 'MuseoSlab-100', sans-serif;
+  font-size: 14pt;
+}
+
+#form-response.has-error{
+  color: #F44336;
+}
+#form-response.success{
+  color: $motivapp-blue;
+}

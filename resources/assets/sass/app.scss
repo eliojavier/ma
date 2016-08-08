@@ -1,0 +1,156 @@
+/** Plugins styles */
+@import "materialize";
+@import "font-awesome";
+@import "slick.scss";
+@import "slick-theme.scss";
+@import "social";
+@import "fab_menu";
+@import "circliful";
+
+/** Custom fonts */
+@import "fonts";
+
+/** Custom variables */
+@import "variables";
+
+/** Layouts */
+@import "nav";
+@import "footer";
+@import "welcomePage";
+@import "admin";
+@import "profile";
+@import "post";
+@import "home";
+@import "collaborators";
+/** mblm */
+@import "andres";
+/** Media queries */
+@import "media_queries";
+
+html {
+  font-family: 'SourceSansPro-Regular', sans-serif;
+}
+
+/** error classes */
+input[type=text].has-error,
+input[type=email].has-error,
+input[type=password].has-error{
+  border-bottom: 1px solid #F44336;
+  -webkit-box-shadow: 0 1px 0 0 #F44336;
+  -moz-box-shadow: 0 1px 0 0 #F44336;
+  box-shadow: 0 1px 0 0 #F44336;
+}
+span.has-error{
+  color:#F44336;
+  font-size: 0.8rem;
+}
+a{
+  outline: none;
+}
+hr{
+  border: 1px solid #d7d7d7;
+}
+
+/** Quick Fixes and overwrites of materialize framework */
+//Removes box shadow from default nav
+.remove-box-shadow{
+  box-shadow: none;
+}
+
+.no-margin-top{
+  margin-top: 0;
+}
+
+.no-margin-bottom{
+  margin-bottom: 0;
+}
+
+.centering {
+  margin: 0 auto;
+}
+
+.width-100p{
+  min-width: 100%;
+}
+
+//Background
+.bg-motivapp-purple{
+  background-color: $motivapp-purple !important;
+}
+
+.bg-motivapp-red{
+  background-color:$motivapp-red !important;
+}
+
+.bg-motivapp-green{
+  background-color:$motivapp-green !important;
+}
+
+.bg-motivapp-blue{
+  background-color:$motivapp-blue !important;
+}
+
+//Text
+.text-motivapp-purple{
+  color: $motivapp-purple !important;
+}
+
+.text-motivapp-red{
+  color:$motivapp-red !important;
+}
+
+.text-motivapp-green{
+  color:$motivapp-green !important;
+}
+
+.text-motivapp-blue{
+  color:$motivapp-blue !important;
+}
+
+//profile
+.preview-img{
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+//slider
+.slide-caption{
+  min-height: 80px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background: rgba(51,51,51,0.8);
+  background: linear-gradient(180deg,
+          rgba(244, 244, 244,0),
+          rgba(37,37,37,0.6)
+  );
+  color:white;
+  font-size: 1rem;
+  letter-spacing:1px;
+  line-height:1.5rem;
+  height:50%;
+  bottom:0;
+  padding:60px 32px 35px;
+}
+.slide-caption h1{
+  font-family: 'MuseoSlab-100',sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 26px;
+  padding: 5px;
+  margin: 0;
+}
+.slide-caption p{
+  line-height: 19pt;
+  text-transform: uppercase;
+  padding: 0 5px 5px 5px;
+  margin: 0;
+  display: inline-block;
+  font-size: 9pt;
+}
+
+.text-justify{
+  text-align: justify;
+}

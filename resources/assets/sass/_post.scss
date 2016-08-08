@@ -1,0 +1,184 @@
+.post-date{
+  font-family: 'OpenSans-regular', sans-serif;
+  text-transform: uppercase;
+  font-size: 7pt;
+}
+.post-title{
+  font-family: 'RooneySans-Light',sans-serif;
+  font-size: 16pt;
+  color:#333;
+  //line-height:32px;
+}
+
+.article-title {
+  position: relative;
+  top: 31px;
+  z-index: 101;
+}
+.article-title h1 {
+  font-family: 'MuseoSlab-100',sans-serif;
+  background-color: #00aeef;
+  color: #ffffff;
+  font-size: 30pt;
+  padding: 5px;
+  margin: 0;
+}
+
+.article-title p {
+  line-height: 19pt;
+  text-transform: uppercase;
+  font-family: 'RooneySans-Light',sans-serif;
+  padding: 0 5px 5px 5px;
+  margin: 0;
+  display: inline-block;
+  background-color: #00aeef;
+  color: #ffffff;
+  font-size: 9pt;
+}
+
+.article-title p > span {
+  font-family: 'RooneySans-bold',sans-serif;
+}
+
+// Categories tag
+.category-motivapp-green{
+  border-top: 5px solid $motivapp-green;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Rooney-sans-bold',sans-serif;
+  font-size: 10px !important;
+  letter-spacing: 0.5px;
+  padding-top:8px;
+  margin:0 0 5px 0;
+}
+
+.category-motivapp-purple{
+  border-top: 5px solid $motivapp-purple;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Rooney-sans-bold',sans-serif;
+  font-size: 10px !important;
+  letter-spacing: 0.5px;
+  padding-top:8px;
+  margin:0 0 5px 0;
+}
+
+.category-motivapp-blue{
+  border-top: 5px solid $motivapp-blue;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Rooney-sans-bold',sans-serif;
+  font-size: 10px !important;
+  letter-spacing: 0.5px;
+  padding-top:8px;
+  margin:0 0 5px 0;
+}
+
+.category-motivapp-red{
+  border-top: 5px solid $motivapp-red;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Rooney-sans-bold',sans-serif;
+  font-size: 10px !important;
+  letter-spacing: 0.5px;
+  padding-top:8px;
+  margin:0 0 5px 0;
+}
+.post-content ul
+{
+  padding: 0 25px;
+}
+ ul, .post-content ul li
+{
+  list-style-type: disc;
+}
+
+.post-content p, .post-content span{
+  font-family: 'OpenSans-regular',sans-serif;
+  font-size: 16px;
+  color:#333;
+  line-height:32px;
+}
+.post-content b, .post-content strong {
+  font-family: 'OpenSans-Semibold','OpenSans-regular', sans-serif;
+  font-weight: bold;
+}
+
+.post-content img
+{
+  max-width: 100%;
+}
+
+//click slider add post
+.post{
+  cursor: pointer;
+}
+
+//share counter
+.rating-icon{
+  font-size: 25pt;
+}
+.rating-counter{
+  border: solid 2px #989898;
+  width: 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.rating-counter:hover,.rating-counter:focus, .rating-counter:active{
+  background-color: $motivapp-blue;
+  color: white;
+  border-color: $motivapp-blue;
+}
+.share-article{
+  font-family: 'Rooney-sans-bold',sans-serif;
+}
+.share-article p{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 6pt;
+}
+.share-article:hover, .share-article:focus,.share-article:active{
+  color: $motivapp-blue;
+  cursor: pointer;
+}
+.share-article{
+  font-family: 'Rooney-sans-bold',sans-serif;
+}
+.share-article:hover, .share-article:focus,.share-article:active{
+  color:$motivapp-blue;
+  cursor: pointer;
+}
+
+.article-title{
+  position:relative;
+  top:31px;
+}
+.rating-share-icon-list{
+  margin: 10px;
+}
+.rating-share-icon-list h2{
+  font-size: 1.0rem;
+  font-family: 'Rooney-sans-bold',sans-serif;
+  display: inline-block;
+  color: white;
+  margin: 0;
+}
+.rating-share-icon-list a i:hover , .rating-share-icon-list a i:active{
+  background-color: $motivapp-blue;
+  border-radius: 50% !important;
+}
+.rating-share-icon-list i{
+  color: white;
+  font-size: 2.9rem;
+}
+.row-border-rating{
+  border-radius: 0 0 25px 25px;
+  background-color: $motivapp-green
+}
+.col-border-rating{
+  border-radius: 0 0 25px 25px;
+  background-color: white
+}

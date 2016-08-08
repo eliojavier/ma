@@ -1,0 +1,97 @@
+//Sticky footer materialize way
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+
+//Default footer
+footer{
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  width: 100%;
+  color: white;
+}
+
+footer .copyright{
+  margin-top: 40px;
+  font-size: 9pt;
+}
+
+footer hr{
+  border: 1px solid white;
+}
+footer a{
+  color: white;
+}
+
+.footer {
+  background:
+          /* top, transparent red, faked with gradient */
+          linear-gradient(
+                          rgba(0, 174, 239, 0.8),
+                          rgba(0, 174, 239, 0.8)
+          ), $motivapp-blue url("../img/footer/FooterHalo.png") bottom center no-repeat;
+  padding-top: 100px;
+}
+
+//Footer for welcome view
+.welcome-footer {
+  background:
+          /* top, transparent red, faked with gradient */
+          linear-gradient(
+                          rgba(86, 75, 152, 0.8),
+                          rgba(86, 75, 152, 0.8)
+          ), $motivapp-purple url("../img/footer/WelcomeFooterHalo.png") top center no-repeat;
+}
+
+.footer > .top-halo{
+  display: none;
+}
+
+.footer > .bottom-halo{
+  background: url("../img/footer/FooterHalo.png") center 12px no-repeat;
+  height: 105px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.welcome-footer > .top-halo{
+  position: relative;
+  bottom: 11px;
+  background: url("../img/WelcomeHalo.png") top center no-repeat;
+  height: 105px;
+}
+
+.welcome-footer > .bottom-halo{
+  display: none;
+}
+
+//Override for social on footers
+.footer .fa{
+  color: $motivapp-blue;
+  color: rgba(0, 174, 239, 0.8);
+}
+
+.welcome-footer .fa {
+  color: $motivapp-purple;
+  color: rgba(86, 75, 152, 0.8);
+}
+
+//Override for social on footers
+.welcome-footer .social-icons .fa:hover, .social-icons .fa:active {
+  color: $motivapp-purple;
+  color: rgba(86, 75, 152, 0.5);
+}
+
+.footer .social-icons .fa:hover, .social-icons .fa:active {
+  color: $motivapp-blue;
+  color: rgba(0, 174, 239, 0.5);
+}
+
+.footer, .welcome-footer
+{
+  height: 100%;
+}

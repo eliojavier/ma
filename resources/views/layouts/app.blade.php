@@ -16,6 +16,7 @@
     <title>Motivapp | @yield('title')</title>
 
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/mycss.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     @yield('head')
 

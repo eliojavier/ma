@@ -31,15 +31,15 @@
 
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <form action="{{ url('search') }}" method="GET" class="right-align">
-                            <div class="input-field">
-                                <input id="search" name="q" type="search" placeholder="Buscar..." style=" padding: 0;display: inline-block;width: 50%">
+                        {{--<form action="{{ url('search') }}" method="GET" class="right-align">--}}
+                            {{--<div class="input-field">--}}
+                                {{--<input id="search" name="q" type="search" placeholder="Buscar..." style=" padding: 0;display: inline-block;width: 50%">--}}
 
-                                <button type="button" id="bsearch" style="background: transparent;display: inline;border: none;padding: 0;margin-top: 0;">
-                                    <i class="material-icons" style="color:#646464;font-size: 20px;">search</i>
-                                </button>
-                            </div>
-                        </form>
+                                {{--<button type="button" id="bsearch" style="background: transparent;display: inline;border: none;padding: 0;margin-top: 0;">--}}
+                                    {{--<i class="material-icons" style="color:#646464;font-size: 20px;">search</i>--}}
+                                {{--</button>--}}
+                            {{--</div>--}}
+                        {{--</form>--}}
                     </li>
                     @if (Auth::check())
                         <li class="valign-wrapper" style="height: 64px">
@@ -101,47 +101,47 @@
 
 </div>
 
-@section('after-script-end')
-    <script>
-        $(document).ready(function () {
-            $('#search').keydown(function () {
-                $.ajax({
-                    url:'search',
-                    type: 'GET',
-                    data: {val: $('#search').val()},
-                    success: function (result) {
-                        console.log(result);
-                        console.log(result.posts);
-                        console.log(result.tags);
+{{--@section('after-script-end')--}}
+    {{--<script>--}}
+        {{--$(document).ready(function () {--}}
+            {{--$('#search').keydown(function () {--}}
+                {{--$.ajax({--}}
+                    {{--url:'search',--}}
+                    {{--type: 'GET',--}}
+                    {{--data: {val: $('#search').val()},--}}
+                    {{--success: function (result) {--}}
+                        {{--console.log(result);--}}
+                        {{--console.log(result.posts);--}}
+                        {{--console.log(result.tags);--}}
 
-                        $.each(result.posts.data, function(key, value){
-                            console.log(value.media.thumbnail_path);
-                            console.log(value.media.display_name);
-                            console.log(value.category.style);
-                            console.log(value.category.display_name);
-                            console.log(value.title);
-                            console.log(value.published_date);
+                        {{--$.each(result.posts.data, function(key, value){--}}
+                            {{--console.log(value.media.thumbnail_path);--}}
+                            {{--console.log(value.media.display_name);--}}
+                            {{--console.log(value.category.style);--}}
+                            {{--console.log(value.category.display_name);--}}
+                            {{--console.log(value.title);--}}
+                            {{--console.log(value.published_date);--}}
 
-                            var slug = value.slug;
-                            var thumbnail_path = value.media.thumbnail_path;
-                            var m_display_name = value.media.display_name;
-                            var category_style = value.category.style;
-                            var c_display_name = value.category.display_name;
-                            var title = value.title;
-                            var published_date = value.published_date.date.toString();
+                            {{--var slug = value.slug;--}}
+                            {{--var thumbnail_path = value.media.thumbnail_path;--}}
+                            {{--var m_display_name = value.media.display_name;--}}
+                            {{--var category_style = value.category.style;--}}
+                            {{--var c_display_name = value.category.display_name;--}}
+                            {{--var title = value.title;--}}
+                            {{--var published_date = value.published_date.date.toString();--}}
 
-                            $('#posts').append('<article class="col s12 m4">' +
-                                                    '<div>' +
-                                                        '<a href="/posts/' + slug + '">' +
-                                                            '<img class="responsive-img" src="/' + thumbnail_path + '" alt="' + m_display_name +'">' +
-                                                        '</a>' +
-                                                    '</div>' +
-                                                    '<p class="category-' + category_style + '">' + c_display_name + '</p>' +
-                                                '<a href="/posts/' + slug + '">' +
-                                                    '<h3 class="post-title left-align">' + title + '</h3>' +
-                                                '</a>' +
-                                                '<p class="left-align  post-date">' + published_date + '</p>' +
-                                                '</article>');
+                            {{--$('#posts').append('<article class="col s12 m4">' +--}}
+                                                    {{--'<div>' +--}}
+                                                        {{--'<a href="/posts/' + slug + '">' +--}}
+                                                            {{--'<img class="responsive-img" src="/' + thumbnail_path + '" alt="' + m_display_name +'">' +--}}
+                                                        {{--'</a>' +--}}
+                                                    {{--'</div>' +--}}
+                                                    {{--'<p class="category-' + category_style + '">' + c_display_name + '</p>' +--}}
+                                                {{--'<a href="/posts/' + slug + '">' +--}}
+                                                    {{--'<h3 class="post-title left-align">' + title + '</h3>' +--}}
+                                                {{--'</a>' +--}}
+                                                {{--'<p class="left-align  post-date">' + published_date + '</p>' +--}}
+                                                {{--'</article>');--}}
 
                             {{--<article class="col s12 m4">--}}
                                     {{--<div>--}}
@@ -165,10 +165,10 @@
 
 
 
-                        });
-                    }
-                });
-            });
-        });
-    </script>
-@endsection
+                        {{--});--}}
+                    {{--}--}}
+                {{--});--}}
+            {{--});--}}
+        {{--});--}}
+    {{--</script>--}}
+{{--@endsection--}}

@@ -45,6 +45,6 @@ class Tag extends Model
      */
     public function scopeSearch($query, $search)
     {
-        $query->where('display_name','LIKE',"%$search%");
+        $query->where('display_name','LIKE', "%$search%");
     }
 }

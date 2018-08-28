@@ -130,14 +130,19 @@ class PagesController extends Controller
         return view('pages.privacy');
     }
 
-    public function search(Request $request)
+    public function search()
+    {
+        return view('pages.search');
+    }
+
+    public function searchText(Request $request)
     {
         if($request->ajax()){
             $search = $request->val;
             $posts = Post::search($search)->with('category')->has('media')->with('media')
                ->latest('published_date')->public()->published()->paginate(9);
 
-            $tags = Tag::search($search);
+            $tags = Tag::search($search)->get();
             return response()->json(["posts"=>$posts, "tags"=>$tags]);
         }
         //return($data);

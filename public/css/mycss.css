@@ -1,0 +1,13 @@
+#loading-image{
+    background: url("../img/loading-circle.gif")!important;
+    margin-top:15px;
+    text-align:center;
+    display:block;
+    height:200px;
+    width:00px;
+}
+
+.responsive-img-result{
+    height:50%;
+    max-width:50%;
+}

@@ -63,6 +63,7 @@ Route::post('removeTags',['uses' => 'ProfileController@removeTags', 'as' => 'rem
 Route::post('changePassword',['uses' => 'ProfileController@changePassword', 'as' => 'change.password']);
 
 Route::get('search','PagesController@search');
+Route::get('searchText', 'PagesController@searchText');
 
 //Social Login
 Route::get('/login/{provider?}',[
